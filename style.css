@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Indie+Flower&family=Jersey+20&display=swap');
+
+
+h4{
+    font-family: "Bungee Tint", sans-serif;
+    font-size: 70px;
+}
+.hh{ 
+    font-family: "Indie Flower", cursive;
+    font-size: 60px;
+    color:chartreuse;
+}
+.buttons{
+    display: flex;
+    gap:50px;
+    justify-content: center;
+}
+button{
+    padding: 5px 10px;
+    border:5px solid black;
+    box-shadow: 0px 0px 30px gold;
+    background-color: palevioletred;
+    font-size: 45px;
+    font-family: "Jersey 20", sans-serif;
+    margin-bottom: 30px;
+}
+
+.body{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+body{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(50,92,194,1) 58%, rgba(0,212,255,1) 100%); 
+}
+    .res, .pic{
+    font-size: 40px;
+    margin-top: 100px;
+    font-family: "Jersey 20", sans-serif;
+}
+button:hover{
+    background-color:pink;
+    transform:scale(1.4);
+    color:darkmagenta;
+    border:5px solid wheat;
+}
+.pic{
+    height: 300px;
+    width:400px;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+}
+.marks{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color:yellow;
+    font-weight: bolder;
+}
+.hh:hover{
+    transform: scale(2);
+}
